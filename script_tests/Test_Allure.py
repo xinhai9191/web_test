@@ -6,4 +6,4 @@ class Test_Allure:
     @allure.severity(allure.severity_level.BLOCKER)
     def test_001(self):
         allure.attach("描述", "测试显示")
-        assert 0
+        assert 1
